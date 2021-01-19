@@ -12,12 +12,6 @@ Z = [0; 0; 1];
 w{1} = [0 0 0].';
 wd{1}= [0 0 0].';
 % Gravity Orientation
-% "The effect of gravity loading on the links can be included quite simply
-% by setting vd0 = G, where G has the magnitude of the gravity vector but
-% points in the opposite direction. This is equivalent to saying that the
-% base of the robot is accelerating upward with 1 g acceleration. This
-% fictitious upward acceleration causes exactly the same effect on the
-% links as gravity would." - pg. 176
 G = -g0;
 vd{1} = G;
 %% Outward Iterations
